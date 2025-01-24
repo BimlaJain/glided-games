@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import logo from "../assets/images/png/logo.png";
 import discordIcon from "../assets/images/svg/discord.svg";
 
-// Navigation Links Array
 const navLinks = [
     { name: "About", href: "#about" },
     { name: "Presale $GILD", href: "#presale" },
@@ -15,19 +14,17 @@ const Header = () => {
 
     return (
         <header className="bg-black/80">
-            {/* Main content wrapper */}
             <div className={`container flex items-center justify-between ${isMenuOpen ? 'hidden' : ''}`}>
                 <div className="flex items-center py-4">
                     <img src={logo} alt="Gilded Games Logo" className="md:w-[286px] md:h-[57px] w-[200px] h-[45px]" />
                 </div>
 
-                {/* Main Navigation */}
-                <nav className="hidden lg:flex xl:gap-10 gap-4 text-sm">
+                <nav className="hidden lg:flex lg:items-center xl:gap-10 gap-4 text-sm">
                     {navLinks.map((link, index) => (
                         <a
                             key={index}
                             href={link.href}
-                            className="hover:font-bold text-white text-[22px] transition-all ease-in-out duration-500"
+                            className="hover:font-bold text-white xl:text-[22px] lg:text-xl text-[22px] transition-all ease-in-out duration-500"
                         >
                             {link.name}
                         </a>
@@ -41,7 +38,6 @@ const Header = () => {
                     </a>
                 </nav>
 
-                {/* Mobile Menu Button */}
                 <div className="flex lg:hidden">
                     {!isMenuOpen && (
                         <button
@@ -67,10 +63,8 @@ const Header = () => {
                 </div>
             </div>
 
-            {/* Mobile Navigation */}
             {isMenuOpen && (
                 <nav className="lg:hidden bg-black/80 min-h-screen w-full flex flex-col z-50 justify-center items-center text-center text-sm space-y-4 relative">
-                    {/* Close Button (Cross) at the top-right */}
                     <div className="absolute top-4 right-4">
                         <button onClick={() => setIsMenuOpen(false)} className="text-white hover:text-gray-400">
                             <svg
@@ -90,7 +84,6 @@ const Header = () => {
                         </button>
                     </div>
 
-                    {/* Menu Links */}
                     {navLinks.map((link, index) => (
                         <a
                             key={index}
@@ -101,7 +94,6 @@ const Header = () => {
                         </a>
                     ))}
 
-                    {/* Discord Link */}
                     <a
                         href="#discord"
                         className="inline-flex items-center gap-2 px-4 py-2 text-sm button-gradient rounded-[79px] hover:scale-110 transition-all duration-300"
