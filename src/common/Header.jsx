@@ -28,7 +28,7 @@ const Header = () => {
         <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20 bg-black/80">
             <div className="container">
                 <div className="flex justify-between items-center lg:h-[100px] sm:h-20 ">
-                    <a href="/"><img className='max-w-[278px]' src={logo} alt="nav-logo" /></a>
+                    <a href="/"><img className='md:max-w-[278px] max-w-[200px]' src={logo} alt="nav-logo" /></a>
                     <div className='lg:block hidden'>
                         <div className="flex gap-10 items-center justify-end">
                             {NAV_DATA.map((obj, index) => (
@@ -71,7 +71,7 @@ const Header = () => {
                                     </a>))}
                                 <a
                                     href="#discord"
-                                    className="hidden md:flex items-center gap-2 px-4 py-2 text-white text-sm button-gradient rounded-[79px] hover:scale-110 transition-all duration-500"
+                                    className=" flex items-center gap-2 px-4 py-2 text-white text-sm button-gradient rounded-[79px] hover:scale-110 transition-all duration-500"
                                 >
                                     <img src={discordIcon} alt="Discord Icon" className="w-6 h-6" />
                                     Discord
