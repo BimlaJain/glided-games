@@ -49,7 +49,7 @@ const Hero = () => {
             <Header />
             <div className="container">
                 <div className="relative z-10">
-                    <h1 className="text-3xl font-poppins sm:text-4xl lg:text-7xl font-normal text-white text-center leading-tight xl:pt-[324px] lg:pt-[150px] pt-16 max-w-[1000px] mx-auto">
+                    <h1 className="text-3xl font-poppins sm:text-4xl lg:text-7xl font-normal text-white text-center leading-tight xl:pt-[324px] lg:pt-[150px] pt-16 max-w-[1020px] mx-auto">
                         There are games... And then
                         there are <span className="text-[#1BABFE]">Gilded </span>Games
                     </h1>

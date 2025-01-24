@@ -28,17 +28,17 @@ const Header = () => {
         <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20 bg-black/80">
             <div className="container">
                 <div className="flex justify-between items-center lg:h-[100px] sm:h-20 ">
-                    <a href="/"><img className='md:max-w-[278px] max-w-[200px]' src={logo} alt="nav-logo" /></a>
+                    <a href="/"><img className='xl:max-w-[276px] md:max-w-[233px] max-w-[200px]' src={logo} alt="nav-logo" /></a>
                     <div className='lg:block hidden'>
                         <div className="flex gap-10 items-center justify-end">
                             {NAV_DATA.map((obj, index) => (
                                 <a onClick={toggleMenu} key={index}
-                                    className="font-normal hover:font-bold !transition-all !duration-700 text-[22px] leading-[22px] text-white"
+                                    className="font-normal hover:font-bold !transition-all !duration-700 xl:text-[22px] text-lg leading-[22px] text-white"
                                     href={obj.id}> {obj.title} </a>
                             ))}
                             <a
                                 href="#discord"
-                                className="hidden md:flex items-center gap-2 px-[41px] py-[14.5px] text-white text-xl button-gradient rounded-[79px] hover:scale-110 transition-all duration-500"
+                                className="hidden md:flex items-center gap-2 xl:px-[41px] px-5 py-[14.5px] text-white text-xl button-gradient rounded-[79px] hover:scale-110 transition-all duration-500"
                             >
                                 <img src={discordIcon} alt="Discord Icon" className="w-6 h-6" />
                                 Discord
