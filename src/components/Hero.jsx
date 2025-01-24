@@ -35,7 +35,7 @@ const Hero = () => {
     }, []);
     return (
         <section
-            className="relative bg-cover bg-center xl:min-h-screen 2xl:min-h-fit lg:pb-[129px] md:pb-20 pb-16"
+            className="relative bg-cover bg-center xl:min-h-screen 2xl:min-h-fit lg:pb-[129px] md:pb-20 pb-16 -mb-2"
             style={{ backgroundImage: `url(${herobg})` }}
         >
             <Header />
@@ -73,6 +73,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+           
         </section>
     );
 };
