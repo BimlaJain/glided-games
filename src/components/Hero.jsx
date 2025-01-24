@@ -54,7 +54,7 @@ const Hero = () => {
                     <div className="mt-6 flex flex-row gap-4 justify-center sm:space-x-4">
                         <a
                             href="#discord"
-                            className="inline-flex items-center md:text-[22px] text-lg gap-2 md:px-[38px] px-5 py-2 md:py-[10.5px] text-white button-gradient rounded-[79px] hover:scale-110 transition-all duration-300"
+                            className="inline-flex items-center md:custom-xl text-lg gap-2 md:px-[38px] px-5 py-2 md:py-[10.5px] text-white button-gradient rounded-[79px] hover:scale-110 transition-all duration-300"
                         >
                             <img
                                 src={presaleIcon}
@@ -66,7 +66,7 @@ const Hero = () => {
                         </a>
                         <a
                             href="#discord"
-                            className="inline-flex items-center md:text-[22px] text-lg gap-2 md:px-[38px] px-5 py-2 md:py-[10.5px] text-white border border-white rounded-[79px] hover:scale-110 transition-all duration-300"
+                            className="inline-flex items-center md:custom-xl text-lg gap-2 md:px-[38px] px-5 py-2 md:py-[10.5px] text-white border border-white rounded-[79px] hover:scale-110 transition-all duration-300"
                         >
                             Join Now
                         </a>

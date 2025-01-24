@@ -33,7 +33,7 @@ const Header = () => {
                         <div className="flex gap-10 items-center justify-end">
                             {NAV_DATA.map((obj, index) => (
                                 <a onClick={toggleMenu} key={index}
-                                    className="font-normal hover:font-bold !transition-all !duration-700 xl:text-[22px] text-lg leading-[22px] text-white"
+                                    className="font-normal hover:font-bold !transition-all whitespace-nowrap !duration-700 xl:custom-xl text-lg leading-[22px] text-white"
                                     href={obj.id}> {obj.title} </a>
                             ))}
                             <a
