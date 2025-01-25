@@ -8,7 +8,7 @@ const Utility = () => {
             <div className="container">
                 <div className='lg:flex xl:pt-[105px] items-center justify-between'>
                     <div className='lg:pt-[101px] pt-10'>
-                        <h3 className='font-bold text-5xl text-white leading-custom-xl pb-4 max-lg:text-center'> <span className='bg-gradient-to-tl from-purple to-blue bg-clip-text text-transparent'>NFT</span> Utility</h3>
+                        <h3 className='font-bold lg:text-5xl md:text-4xl text-3xl text-white leading-custom-xl pb-4 max-lg:text-center'> <span className='bg-gradient-to-tl from-purple to-blue bg-clip-text text-transparent'>NFT</span> Utility</h3>
                         <p className='text-white/60 font-normal md:text-xl font-poppins text-base leading-custom-4xl lg:max-w-[649px] lg:text-left text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin curabitur iaculis id cursus dignissim. Volutpat placerat volutpat commodo id ultricies volutpat vestibulum. Egestas venenatis dignissim fames maecenas. Blandit orci consectetur mauris, ipsum viverra quisque. Vulputate sollicitudin tellus eget consequat lectus dignissim integer in vitae. Commodo integer dis tortor cras maecenas sit. Et nunc et platea elementum, cursus morbi. Placerat molestie nibh parturient lectus magna sed fusce diam urna. Quam magna duis imperdiet posuere iaculis.</p>
                     </div>
                     <div>
