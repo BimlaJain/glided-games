@@ -16,3 +16,8 @@ html,body {
     background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
     box-shadow: 0px 8px 30px 0px #1BABFE;
 }
+
+.shadow-gradient:hover {
+    background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
+    box-shadow: 0px 8px 30px 0px #1BABFE;
+}

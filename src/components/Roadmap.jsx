@@ -18,7 +18,7 @@ const Roadmap = () => {
                 />
             </div>
             <div className="container">
-                <h2 className="text-center text-4xl font-bold lg:pb-24 md:pb-20 pb-10">
+                <h2 className="text-center lg:text-5xl md:text-4xl text-3xl font-bold lg:pb-24 md:pb-20 pb-10">
                     <span className="bg-gradient-to-tl from-purple to-blue bg-clip-text text-transparent">Road</span>map
                 </h2>
                 <div className="relative flex flex-col sm:flex-row justify-between">
