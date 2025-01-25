@@ -7,10 +7,10 @@ import coin from "../assets/images/png/coin.png";
 
 const Powered = () => {
     const poweredByImages = [
-        { src: engine, alt: "engine", maxWidth: "264px", padding: "py-[67px] px-[19px] max-lg:px-6" },
-        { src: uniswap, alt: "uniswap", maxWidth: "273px", padding: "py-[59px] px-[20px]" },
-        { src: coin, alt: "coin", maxWidth: "247px", padding: "py-[74px] px-[33px]" },
-        { src: polygon, alt: "polygon", maxWidth: "261.4px", padding: "py-[63px] px-[25px]" }
+        { src: engine, alt: "engine", maxWidth: "264px", padding: "py-[67px] px-[19px] max-lg:px-6 max-sm:py-5" },
+        { src: uniswap, alt: "uniswap", maxWidth: "273px", padding: "py-[59px] px-[20px] max-sm:py-5" },
+        { src: coin, alt: "coin", maxWidth: "247px", padding: "py-[74px] px-[33px] max-sm:py-5" },
+        { src: polygon, alt: "polygon", maxWidth: "261.4px", padding: "py-[63px] px-[25px] max-sm:py-3" }
     ];
 
     return (
@@ -23,7 +23,7 @@ const Powered = () => {
                     {poweredByImages.map((image, index) => (
                         <div
                             key={index}
-                            className={`border rounded-[13px] cursor-pointer border-white shadow-gradient transition-all duration-700 ${image.padding}`}
+                            className={`border rounded-[13px] token-card cursor-pointer border-white shadow-gradient transition-all duration-700 ${image.padding}`}
                         >
                             <img
                                 className='mx-auto'
