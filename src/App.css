@@ -4,8 +4,9 @@
 .font-poppins{
     font-family: "Poppins", sans-serif;
 }
-body {
+html,body {
     font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 .hero-bg{
     background-image: url("../assets/images/png/hero-bg.png");

@@ -1,6 +1,6 @@
 export const NAV_DATA = [
     { title: 'About', id: '#about' },
-    { title: 'Presale $GILD', id: '#solution' },
-    { title: 'Staking $GILD', id: '#benefits' },
-    { title: '$GILD Nodes', id: '#testimonials' },
+    { title: 'Presale $GILD', id: '#presale' },
+    { title: 'Staking $GILD', id: '#staking' },
+    { title: '$GILD Nodes', id: '#nodes' },
 ];

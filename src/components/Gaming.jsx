@@ -4,7 +4,7 @@ import gamingTopIcon from "../assets/images/png/gaming-top-icon.png"
 import gamingBottomIcon from "../assets/images/png/gaming-bottom-icon.png"
 const Gaming = () => {
     return (
-        <div className='bg-cover bg-center xl:py-[228px] lg:py-[150px] py-[100px] -mt-1' style={{ backgroundImage: `url(${gamingbg})` }}>
+        <div id='presale' className='bg-cover bg-center xl:py-[228px] lg:py-[150px] py-[100px] -mt-1' style={{ backgroundImage: `url(${gamingbg})` }}>
             <div className="container">
                 <div className='relative'>
                     <img className='absolute -top-[26%] xl:left-[8%] max-lg:top-[-16%] lg:left-[-2%] max-sm:top-[-15%] md:max-w-[102px] max-w-[40px] pointer-events-none' src={gamingTopIcon} alt="icon" />

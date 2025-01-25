@@ -3,7 +3,7 @@ import Girl from "../assets/images/png/utility-girl.png"
 import utilitybg from "../assets/images/png/utility-bg.png"
 const Utility = () => {
     return (
-        <div className=' bg-cover bg-center' style={{ backgroundImage: `url(${utilitybg})` }}>
+        <div id='about' className=' bg-cover bg-center' style={{ backgroundImage: `url(${utilitybg})` }}>
             <div className="h-3 w-full bg-black backdrop-blur-3xl"></div>
             <div className="container">
                 <div className='lg:flex xl:pt-[105px] items-center justify-between'>

@@ -34,7 +34,7 @@ const Hero = () => {
         return () => clearInterval(interval);
     }, []);
     return (
-        <section
+        <section id="hero"
             className="relative bg-cover bg-center xl:min-h-screen 2xl:min-h-fit lg:pb-[129px] md:pb-20 pb-16 -mb-2"
             style={{ backgroundImage: `url(${herobg})` }}
         >
