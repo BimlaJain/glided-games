@@ -7,10 +7,10 @@ import coin from "../assets/images/png/coin.png";
 
 const Powered = () => {
     const poweredByImages = [
-        { src: engine, alt: "engine", maxWidth: "264px", padding: "py-[67px] px-[19px] max-lg:px-6 max-sm:py-5" },
-        { src: uniswap, alt: "uniswap", maxWidth: "273px", padding: "py-[59px] px-[20px] max-sm:py-5" },
-        { src: coin, alt: "coin", maxWidth: "247px", padding: "py-[74px] px-[33px] max-sm:py-5" },
-        { src: polygon, alt: "polygon", maxWidth: "261.4px", padding: "py-[63px] px-[25px] max-sm:py-3" }
+        { src: engine, alt: "engine", maxWidth: "264px", padding: "py-[67px] px-[19px] max-lg:px-6 max-sm:py-[42px]" },
+        { src: uniswap, alt: "uniswap", maxWidth: "273px", padding: "py-[59px] px-[20px] max-sm:py-8" },
+        { src: coin, alt: "coin", maxWidth: "247px", padding: "py-[74px] px-[33px] max-sm:py-12" },
+        { src: polygon, alt: "polygon", maxWidth: "261.4px", padding: "py-[63px] px-[25px] max-sm:py-9" }
     ];
 
     return (
