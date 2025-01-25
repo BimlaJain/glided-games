@@ -14,7 +14,7 @@ const PlayToEarn = () => {
         <img className='absolute left-0 xl:block hidden' src={playLeft} alt="play-left" />
         <img className='absolute right-0 xl:block hidden' src={playright} alt="play-left" />
       </div>
-      <div className='bg-gradient-to-tl from-purple to-blue rounded-xl lg:mt-12 md:mt-10 mt-8 relative z-10 max-w-[1320px] mx-auto w-full'>
+      <div className='bg-gradient-to-tl from-blue to-purple rounded-xl lg:mt-12 md:mt-10 mt-8 relative z-10 max-w-[1320px] mx-auto w-full'>
         <img className='flex justify-center max-w-[1320px] w-full mx-auto md:p-[5px] p-[2px] rounded-xl relative h-[561px] z-20' src={playImage} alt="border-image" /></div>
       </div>
     </div>
