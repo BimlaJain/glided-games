@@ -26,11 +26,11 @@ const Uniswap = () => {
                     <div>
                         <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl text-white leading-custom-xl max-lg:text-center text-center pb-[21px]">
                             Buy On <span className="text-sky">Uniswap</span> </h2>
-                        <ul className="space-y-2">
+                        <ul className="space-y-[11px]">
                             {uniswap_data.map((data, i) => (
                                 <React.Fragment key={i}>
                                     {data.items.map((item, j) => (
-                                        <li key={j} className="text-xl pb-[11px] font-normal text-white max-sm:text-center">
+                                        <li key={j} className="text-xl font-normal text-white max-sm:text-center">
                                             • {item}
                                         </li>
                                     ))}
