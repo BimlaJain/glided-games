@@ -4,3 +4,31 @@ export const NAV_DATA = [
     { title: 'Staking $GILD', id: '#staking' },
     { title: '$GILD Nodes', id: '#nodes' },
 ];
+
+export const phases = [
+    {
+        title: "Phase 1",
+        quarter: "Q1 2022",
+        items: [
+            "Whitelist/Presale Created",
+            "Private Sale",
+            "Public Sale",
+            "Prime Eternal Owner Perks",
+        ],
+    },
+    {
+        title: "Phase 2",
+        quarter: "Q2 2022",
+        items: ["Token & Staking Release", "Staking Gameplay"],
+    },
+    {
+        title: "Phase 3",
+        quarter: "Q3 2022",
+        items: [
+            "MVP Gameplay Release",
+            "Battle Modes Release",
+            "Land Gameplay Release",
+            "Gear Forging Release",
+        ],
+    },
+];
