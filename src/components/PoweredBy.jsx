@@ -21,9 +21,10 @@ const Powered = () => {
                 </h2>
                 <div className='flex max-xl:flex-wrap gap-6 max-xl:justify-center'>
                     {poweredByImages.map((image, index) => (
+                        <div className='bg-gradient-to-b h-full from-white/20 to-white/10 p-[1px] rounded-[13px]'>
                         <div
                             key={index}
-                            className={`border rounded-[13px] token-card cursor-pointer border-white shadow-gradient transition-all duration-700 ${image.padding}`}
+                                className={`rounded-[13px] bg-gradient-to-b from-[#262626] to-[#040404] cursor-pointer  shadow-gradient transition-all duration-700 ${image.padding}`}
                         >
                             <img
                                 className='mx-auto'
@@ -31,7 +32,8 @@ const Powered = () => {
                                 src={image.src}
                                 alt={image.alt}
                             />
-                        </div>
+                            </div>
+                            </div>
                     ))}
                 </div>
             </div>

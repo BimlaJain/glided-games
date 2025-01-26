@@ -1,3 +1,8 @@
+import billion from "../assets/images/svg/billion.svg";
+import sale from "../assets/images/svg/sale.svg";
+import nft from "../assets/images/svg/nft.svg";
+import holder from "../assets/images/svg/holder.svg";
+
 export const NAV_DATA = [
     { title: 'About', id: '#about' },
     { title: 'Presale $GILD', id: '#presale' },

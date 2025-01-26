@@ -19,7 +19,6 @@ module.exports = {
             colors: {
                 "purple": '#815ccb',
                 "blue": "#1BABFE",
-
             },
             fontSize: {
                 "custom-xl": '22px',
